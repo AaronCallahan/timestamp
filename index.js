@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/:date', (req, res) => {
-    const dateStr = req.params.date;
+    let dateStr = req.params.date;
     let output;
 
     // Detect if date is unix. If not, assume it's natural.
