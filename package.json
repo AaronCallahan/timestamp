@@ -1,0 +1,27 @@
+{
+  "name": "timestamp-api",
+  "version": "1.0.0",
+  "description": "A full-stack JavaScript timestamp microservice.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaroncallahan/timestamp-api.git"
+  },
+  "keywords": [
+    "timestamp"
+  ],
+  "author": "Aaron Callahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaroncallahan/timestamp-api/issues"
+  },
+  "homepage": "https://github.com/aaroncallahan/timestamp-api#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.16.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
