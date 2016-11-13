@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const moment = require('moment');
-const port = process.argv[2] || 8080;
+const port = process.argv[2] || process.env.PORT || 3000;
 
 app.set('view engine', 'pug');
 
